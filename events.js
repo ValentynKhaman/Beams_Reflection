@@ -84,7 +84,7 @@ document.onkeydown = function(){
 			index = 2;	
 	}
 }
-document.onmousemove = function(){// оновлення координат при зміні позиції миші
+document.onmousemove = function(){
 	mouse.x = event.clientX;
 	mouse.y = event.clientY;
 	Dist = Math.sqrt(Math.pow(mouse.x-click.x,2)+Math.pow(mouse.y-click.y,2));

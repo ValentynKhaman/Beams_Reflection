@@ -9,7 +9,7 @@ var lastCalledTime;
 var fps;
 var fff = true;
 var sp = 4;
-var mouse = {// поточні координати миші
+var mouse = {// initial mouse coordinates
 	x:undefined,
 	y:undefined
 }
